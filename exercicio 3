@@ -1,0 +1,21 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 21/11/2022
+Var
+// Seção de Declarações das variáveis 
+vcv:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("digite a distancia em metros")
+leia(vcv)
+escreval ("a distancia de",vcv," km corresponde a : ",vcv*1000)
+escreval (" a distancia de",vcv," hm corresponde a: ",vcv*100)
+escreval("a distancial de",vcv,"dam corresponde a: ",vcv*10)
+escreval("a distancia de",vcv,"dm corresponde a: ",vcv/10)
+escreval("a distancia de",vcv,"cm corresponde a: ",vcv/100)
+escreval("a distancia de",vcv,"mm corresponde a: ",vcv/1000)
+Fimalgoritmo
