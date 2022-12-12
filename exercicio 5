@@ -1,0 +1,18 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 28/11/2022
+Var
+// Seção de Declarações das variáveis 
+vel:real
+multa:real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("qual a velocidade do carro?")
+leia(vel)
+se vel>80 então
+multa<-5*(vel-80)
+escreval("foi multado em:",multa," reais")
+FIMSE
