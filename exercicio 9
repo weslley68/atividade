@@ -1,0 +1,26 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 05/12/2022
+Var
+// Seção de Declarações das variáveis 
+ di:real
+ cobrar:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ escreval("qual é a distancia que voce quer percorrer?(em km)")
+ leia(di)
+ se di>200 entao
+ cobrar<- 0.45* di
+ escreval(" voce foi cobrado por: ",cobrar, "reais")
+ senao
+ cobrar<- 0.50*di
+ escreval("voce foi cobrado por: ",cobrar,"reais")
+ fimse
+ 
+
+
+Fimalgoritmo
